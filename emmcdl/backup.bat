@@ -8,7 +8,7 @@ IF (%SaharaComPort%) == () ( goto NO ) else ( goto START )
 :START
 title QDLoader 9008 meet at %SaharaComPort%
 echo Device found at  %SaharaComPort%
-emmcdl -p %SaharaComPort% -f prog_emmc_firehose_8937_ddr.mbn -d keymaster -o keymaster.mbs
+emmcdl -p %SaharaComPort% -f prog_emmc_firehose_8937_ddr.mbn -d userdata -o userdata.img
 pause
 exit
 
