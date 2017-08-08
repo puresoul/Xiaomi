@@ -1,0 +1,2 @@
+# Xiaomi
+edm/fastboot
